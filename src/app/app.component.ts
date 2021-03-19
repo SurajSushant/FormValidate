@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'suman';
+
+
+  viewFlag:boolean = true;
+
+
+  clickingView(){
+    this.viewFlag=true;
+  }
+
+  clickingApply(){
+    this.viewFlag=false;
+  }
 }
